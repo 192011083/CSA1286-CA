@@ -1,0 +1,8 @@
+7 lines (7 sloc)  56 Bytes
+LDA 2500
+MOV B,A
+LDA 2501
+STA 2500
+MOV A,B
+STA 2501
+HLT
